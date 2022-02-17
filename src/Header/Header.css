@@ -30,8 +30,9 @@
   margin-bottom: 3rem;
 }
 .header-btn {
-  font-size: 2rem;
-  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
   /* background-color: black; */
   border: none;
 }
@@ -52,4 +53,40 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+/* ************ Media Queries ************** */
+
+@media(max-width: 800px){
+  .header-text h1 {
+    font-size: 3rem;
+   
+  }
+}
+
+@media(max-width: 750px){
+  .header-container {
+    
+    
+    flex-wrap: wrap;
+    
+  }
+  .header-text {
+    margin-top: 10rem;
+    margin-right: 0rem;
+  }
+   
+   
+  .header-image {
+    margin-top: 0rem;
+   
+   
+  }
+}
+@media(max-width:450px){
+  .header-image {
+    
+    height: 40rem;
+    
+  }
 }

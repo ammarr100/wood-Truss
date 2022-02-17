@@ -1,0 +1,85 @@
+.system{
+    /* border: 2px solid red; */
+    padding: 5rem 0;
+    background-color: #F2F2F2;
+}
+.system-container{
+    /* border: 2px solid blue; */
+    
+    
+}
+.system-heading{
+    text-align: center;
+    /* border: 2px solid black; */
+    margin-bottom: 3rem;
+    
+}
+.system-heading h1{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    font-family:'Courier New', Courier, monospace;
+}
+.system-heading p {
+    font-size: 2rem;
+    /* border: 2px solid red; */
+    line-height: 3rem;    
+    font-weight:500;
+    
+}
+.system-items{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.system-text{
+    width: 38.5rem;
+    height: 35rem;
+    max-width: 38.5rem;
+    /* border: 2px solid orange; */
+    text-align: center;
+    background-color: #E8662B;
+    color:  white;
+    
+}
+.system-text:nth-child(3){
+    background-color:#394D60 ;
+}
+.system-text:nth-child(5){
+    background-color: white;
+    color: black;
+}
+.card h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-top: 5rem;
+    margin-bottom: 3rem;    
+}
+.system-para p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.system-image{
+    width: 38.5rem;
+    height: 35rem;
+    max-width: 38.5rem;
+}
+.system-image img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+@media(max-width:450px){
+    .system-heading h1{
+        font-size: 3rem;
+        
+    }
+    .system-heading p {
+        font-size: 1.5rem;
+        
+    }
+}

@@ -1,0 +1,101 @@
+.team{
+    /* border: 2px solid red; */
+    background: conic-gradient(#394d60 180deg, #e8662b 180deg);
+    padding: 20rem 0;
+    
+}
+.team-container{
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 10rem;
+    
+    
+}
+.team-left{
+    flex: 1 1 600px;
+    /* border: 2px solid white; */
+    padding: 2rem;
+    background-color: #394d60;
+    color: white;
+}
+.team-textarea-left h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.team-textarea-left p {
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    line-height: 3rem;
+
+}
+.btn-team{
+    font-size: 1.5rem;
+    padding: 1.3rem 4rem;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+}
+.btn-team:hover{
+background: white;
+color: black;
+transform: 0.8s;
+}
+.team-right{
+    flex: 1 1 600px;
+    /* border: 2px solid white; */
+    padding: 2rem;
+    background-color:#e8662b;
+    color: white;
+    text-align: center;
+}
+.team-textarea-right h1{
+    font-size: 3rem;
+    /* text-align: center; */
+}
+.team-textarea-right p{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin: 3rem 0;
+}
+.input-team{
+    padding: 1.3rem;
+    margin-bottom: 3rem;
+    /* display: block;
+    margin: auto; */
+    width: 175px;
+    text-align: center;
+}
+.btn-sub{
+    font-size: 1.5rem;
+    padding: 1.3rem 4rem;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    /* display: block;
+    margin: auto; */
+}
+.btn-sub:hover{
+background: white;
+color: black;
+transform: 0.8s;
+}
+
+/* Media Queries */
+
+@media(max-width:720px){
+    .team-container{
+        
+        flex-wrap: wrap;
+        
+    }
+   
+}
+
+
