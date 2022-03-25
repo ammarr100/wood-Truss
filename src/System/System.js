@@ -6,17 +6,17 @@ const System = ({sysHeading, sysText, sysImage}) => {
     <>
         
                     
-                    <div className='system-text'>
-                    <div className='card'>
-                        <h1>{sysHeading}</h1>
-                        </div>
-                        <div className='system-para'>
-                        <p>{sysText}</p>
-                        </div>
-                            </div>
-                            <div className='system-image'>
-                            <img src={sysImage} alt="" />
-                            </div>                
+<div className='system-text'>
+<div className='card'>
+  <h1>{sysHeading}</h1>
+  </div>
+  <div className='system-para'>
+  <p>{sysText}</p>
+  </div>
+      </div>
+      <div className='system-image'>
+      <img src={sysImage} alt="" />
+      </div>                
                   
            
     </>

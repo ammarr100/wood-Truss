@@ -4,6 +4,7 @@ import Mobile from './Mobile';
 import { FiMenu } from 'react-icons/fi';
 import { CgClose } from 'react-icons/cg';
 import './Navbar.css';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -19,7 +20,8 @@ const Navbar = () => {
       <section className="navbar-desktop">
         <div className="desktop-container container">
           <div className="logo">
-            <h1>Logo</h1>
+            
+            <NavLink to="/">Logo</NavLink>
           </div>
           <div className="desktop-menulinks">
             <Desktop />

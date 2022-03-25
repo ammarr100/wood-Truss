@@ -1,32 +1,24 @@
-import React from 'react';
-import Contact from './Contact/Contact';
-import Design from './Design/Design';
-import Footer from './Footer/Footer';
-import Header from './Header/Header';
-import Navbar from './Navbar/Navbar';
-import Projects from './Projects/Projects';
-import ServicesIndex from './Services/ServicesIndex';
-import StaffIndex from './Staff/StaffIndex';
-import SystemIndex from './System/SystemIndex';
-import Team from './Team/Team';
-import Work from './Work/Work';
+import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Home from './Home'
+import About_ from './Pages/About_';
+import Contact_ from './Pages/Contact_';
+import Products_ from './Pages/Products_';
+import Services_ from './Pages/Services_';
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-      <Header />
-      <ServicesIndex />
-      <SystemIndex/>
-      <Work/>
-      <Team/>
-      <StaffIndex/>
-      <Design/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-    </>
-  );
-};
+   <>
+   <Routes>
+          <Route exact path = '/' element = {<Home/>}></Route>
+          <Route path = 'products' element = {<Products_/>}></Route>
+          <Route path = '/services' element = {<Services_/>}></Route>
+          <Route path = '/about' element = {<About_/>}></Route>
+          <Route path = '/contact' element = {<Contact_/>}></Route>
+          <Route path = '*' element = {<Home/>}></Route>
+      </Routes>
+   </>
+  )
+}
 
-export default App;
+export default App
