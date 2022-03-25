@@ -17,13 +17,13 @@ const Contact = () => {
     <div className='contact-info'>
         <div className='contact-call'>
         <h1 className='contact-heading'>Call us</h1>
-        <p>1 (234) 567-891</p><br />
-        <p>1 (234) 987-654</p>
+        <p>+61 0416466039</p><br />
+        <p>ammarr@msn.com</p>
         </div>
         <div className='contact-location'>
         <h1 className='contact-heading'>Location</h1>
-        <p>121 Rock Sreet, 21 Avenue,
-        New York, NY 92103-9000</p>
+        <p>123 New South Wales Sydney,
+        Australia AU 92103-9000</p>
         </div>
         <div className='contact-top'>
         <h1 className='contact-heading'>Top Services</h1>
