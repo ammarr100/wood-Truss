@@ -6,7 +6,7 @@ const System = ({sysHeading, sysText, sysImage}) => {
     <>
         
                     
-<div className='system-text'>
+<div className='system-text' data-aos="flip-left">
 <div className='card'>
   <h1>{sysHeading}</h1>
   </div>
@@ -14,7 +14,7 @@ const System = ({sysHeading, sysText, sysImage}) => {
   <p>{sysText}</p>
   </div>
       </div>
-      <div className='system-image'>
+      <div className='system-image' data-aos="flip-right">
       <img src={sysImage} alt="" />
       </div>                
                   

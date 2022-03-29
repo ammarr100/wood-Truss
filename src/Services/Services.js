@@ -4,7 +4,7 @@ import './Services.css';
 const Services = ({ icon, heading, text }) => {
   return (
     <>
-      <div className="services-items">
+      <div className="services-items" data-aos="flip-left">
         <div className="service-icon">
           <i class={`icon-colors ${icon}`}></i>
         </div>

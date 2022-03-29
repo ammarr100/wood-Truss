@@ -93,11 +93,16 @@ margin-top: -15rem;
         margin-top: -15rem;
         
         }
+        .design-heading h1{
+            font-size: 3rem;
+         
+        }
 }
 
 @media(max-width:450px){
 
-   
+
+    
     .design-image{
         width: 25rem;
         height: 30rem;
@@ -107,5 +112,9 @@ margin-top: -15rem;
         margin: auto;
         margin-top: -15rem;
         
+        }
+        .design-heading h1{
+            font-size: 2rem;
+         
         }
 }

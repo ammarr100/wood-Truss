@@ -6,8 +6,10 @@ import { CgClose } from 'react-icons/cg';
 import './Navbar.css';
 import { NavLink } from 'react-router-dom';
 
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  
 
   const openHam = (
     <FiMenu className="ham-open" onClick={() => setToggle(!toggle)} />
@@ -20,6 +22,7 @@ const Navbar = () => {
       <section className="navbar-desktop">
         <div className="desktop-container container">
           <div className="logo">
+          
             
             <NavLink to="/">Logo</NavLink>
           </div>

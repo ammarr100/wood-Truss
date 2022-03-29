@@ -7,14 +7,14 @@ const Contact = () => {
     <>
         <section className='contact'>
         <div className='contact-container container'>
-    <div className='contact-box'>
+    <div className='contact-box' data-aos="flip-right">
         <input className='input-text' type="text" placeholder='Enter your Name' />
         <input className='input-text' type="email" placeholder='Enter your Email' />
         <input className='input-text' type="phone" placeholder='Enter your Phone' />
         <textarea name="" id="" cols="30" rows="10"></textarea>
         <button type='submit' className='btn-contact'>Submit</button>
     </div>
-    <div className='contact-info'>
+    <div className='contact-info' data-aos="fade-up">
         <div className='contact-call'>
         <h1 className='contact-heading'>Call us</h1>
         <p>+61 0416466039</p><br />
@@ -35,7 +35,7 @@ const Contact = () => {
         </ul>
         </div>
     </div>
-    <div className='contact-image'>
+    <div className='contact-image' data-aos="flip-left">
     <img src="contact/01.jpg" alt="" />
     </div>
 
