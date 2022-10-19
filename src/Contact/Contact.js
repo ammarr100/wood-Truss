@@ -17,8 +17,8 @@ const Contact = () => {
     <div className='contact-info' data-aos="fade-up">
         <div className='contact-call'>
         <h1 className='contact-heading'>Call us</h1>
-        <p>+61 0416466039</p><br />
-        <p>ammarr@msn.com</p>
+        <p>+61 0420883693</p><br />
+        <p>contact@ammar.tech</p>
         </div>
         <div className='contact-location'>
         <h1 className='contact-heading'>Location</h1>
